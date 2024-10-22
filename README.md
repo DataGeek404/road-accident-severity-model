@@ -3,7 +3,7 @@
 This repository contains a machine learning model that predicts road accident severity using various factors such as age, gender, driving experience, and type of vehicle. The model is built using **Python**, **scikit-learn**, and other essential data preprocessing tools.
 # Road Accident Severity Prediction
 
-![Accident Data Overview](s1.png)
+![Accident Data Overview](ss1.png)
 
 This project predicts the severity of road accidents based on various factors...
 
