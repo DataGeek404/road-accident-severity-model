@@ -50,3 +50,46 @@ pip install -r requirements.txt
 git clone https://github.com/DataGeek404/accident-severity-prediction.git
 cd accident-severity-prediction
 
+
+# Road Accident Severity Prediction
+
+This project aims to predict the severity of road accidents using machine learning techniques.
+
+## Run the Model
+
+The Jupyter notebook provided in the repository contains all the steps to preprocess the data, train the model, and make predictions.
+
+```bash
+jupyter notebook road_accident_severity_model.ipynb
+
+## Load the Trained Model
+
+You can load the pre-trained model saved as `road_accident_severity_model.pkl` and make predictions with new data:
+
+```python
+import joblib
+
+# Load the saved model
+model = joblib.load('road_accident_severity_model.pkl')
+
+# Make predictions with new data
+predictions = model.predict(new_data)
+
+
+## Files in the Repository
+
+- **road_accident_severity_model.pkl**: The trained model.
+- **road_accident_severity_model.ipynb**: Jupyter notebook with data preprocessing, model training, and evaluation.
+- **README.md**: Project overview and instructions.
+- **requirements.txt**: Required dependencies to run the project.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+If you have any questions or suggestions, feel free to contact me:
+
+- GitHub: [DataGeek404](https://github.com/DataGeek404)
+
