@@ -41,3 +41,12 @@ To run the project locally, follow these steps:
 
 ```bash
 pip install -r requirements.txt
+
+## How to Run
+
+### Clone this repository:
+
+```bash
+git clone https://github.com/DataGeek404/accident-severity-prediction.git
+cd accident-severity-prediction
+
