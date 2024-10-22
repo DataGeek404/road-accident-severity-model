@@ -4,6 +4,8 @@ This repository contains a machine learning model that predicts road accident se
 # Road Accident Severity Prediction
 
 ![Accident Data Overview](ss1.png)
+![Accident Data Overview](ss2.png)
+![Accident Data Overview](ss3.png)
 
 This project predicts the severity of road accidents based on various factors...
 
